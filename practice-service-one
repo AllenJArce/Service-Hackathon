@@ -1,0 +1,9 @@
+server:
+  port: 8085
+spring:
+    application:
+        name: practice-service-one
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
